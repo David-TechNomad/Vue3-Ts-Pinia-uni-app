@@ -1,6 +1,7 @@
 import { useMemberStore } from '@/stores'
 // need to change baseURL
-const baseURL = "http://0.0.0.0:8040"
+// const baseURL = "http://0.0.0.0:8040"
+const baseURL = 'https://pcapi-xiaotuxian-front-devtest.itheima.net'
 // 添加请求拦截器
 const httpInterceptor = {
   // 拦截前触发
