@@ -59,7 +59,7 @@ const onSubmit = async () => {
   <view class="viewport">
     <view class="logo">
       <image
-        src="https://pcapi-xiaotuxian-front-devtest.itheima.net/miniapp/images/logo_icon.png"
+        src="@/static/images/logo_icon.jpeg"
       ></image>
     </view>
     <view class="login">
@@ -88,7 +88,7 @@ const onSubmit = async () => {
           </button>
         </view>
       </view>
-      <view class="tips">登录/注册即视为你同意《服务条款》和《小兔鲜儿隐私协议》</view>
+      <view class="tips">登录/注册即视为你同意《服务条款》和《玖玖鲜儿隐私协议》</view>
     </view>
   </view>
 </template>

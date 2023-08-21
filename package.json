@@ -1,5 +1,5 @@
 {
-  "name": "uni-app-xiaotuxian",
+  "name": "uni-app-jiujiuxian",
   "version": "0.0.0",
   "scripts": {
     "dev:app": "uni -p app",

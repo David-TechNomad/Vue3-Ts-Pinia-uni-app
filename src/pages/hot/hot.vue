@@ -93,7 +93,7 @@ const onScrolltolower = async () => {
   <view class="viewport">
     <!-- 推荐封面图 -->
     <view class="cover">
-      <image :src="bannerPicture" mode="aspectFill" />
+      <image class="image" mode="widthFix" :src="bannerPicture"></image>
     </view>
     <!-- 推荐选项 -->
     <view class="tabs">

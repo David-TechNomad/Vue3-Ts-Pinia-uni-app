@@ -12,7 +12,7 @@
       <view class="shipment">
         <navigator class="logistics sk-image sk-pseudo sk-pseudo-circle" hover-class="none">
           <view class="message sk-transparent sk-text-14-2857-512 sk-text"
-            >小兔兔到了小福家里，请签收</view
+            >玖玖兔到了小福家里，请签收</view
           >
           <view class="date sk-transparent sk-text-14-2857-990 sk-text">2023-04-15 23:23:04</view>
         </navigator>
