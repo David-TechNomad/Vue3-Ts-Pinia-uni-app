@@ -10,11 +10,12 @@ defineProps<{
 <template>
   <view class="category">
     <navigator
-      :url="`/pages/category/category`"
       hover-class="none"
       class="category-item"
       v-for="item in list"
       :key="item.id"
+      open-type="switchTab"
+      :url="`/pages/category/category?active=${item.id}`"
     >
       <image :src="item.icon" class="icon" />
       <text class="text">{{ item.name }}</text>

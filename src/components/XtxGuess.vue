@@ -58,7 +58,7 @@ defineExpose({
   </view>
   <view class="guess">
     <navigator
-      url="/pages/index/index"
+      :url="`/pages/goods/goods?id=${item.id}`"
       class="guess-item"
       hover-class="none"
       v-for="item in guessList"
