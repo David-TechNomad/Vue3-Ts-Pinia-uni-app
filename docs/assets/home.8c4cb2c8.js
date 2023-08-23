@@ -1,0 +1,1 @@
+import{h as o}from"./http.f2beb50f.js";const t=(t=1)=>o({method:"GET",url:"/home/banner",data:{disributionSite:t}}),e=(t=1)=>o({method:"GET",url:"/home/category/mutli"}),a=()=>o({method:"GET",url:"/home/hot/mutli"}),m=t=>o({method:"GET",url:"/home/goods/guessLike",data:t});export{e as a,a as b,m as c,t as g};

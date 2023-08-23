@@ -14,10 +14,14 @@
     font-size: 32rpx;
     color: #262626;
     position: relative;
+    .title-text {
+      flex: 1;
+    }
     .title-desc {
       font-size: 24rpx;
       color: #7f7f7f;
       margin-left: 18rpx;
+      flex: 1;
     }
   }
 
